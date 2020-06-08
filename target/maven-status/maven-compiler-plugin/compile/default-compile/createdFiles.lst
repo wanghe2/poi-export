@@ -1,0 +1,15 @@
+com\wang\freemarker\config\AjaxAuthenticationFailureHandler.class
+com\wang\freemarker\bean\AjaxResponseBody.class
+com\wang\freemarker\config\AjaxAuthenticationSuccessHandler.class
+com\wang\freemarker\config\SelfUserDetailsService.class
+com\wang\freemarker\config\AjaxAccessDeniedHandler.class
+com\wang\freemarker\FreeApplication.class
+com\wang\freemarker\config\AjaxAuthenticationEntryPoint.class
+com\wang\freemarker\config\SecurityConfig.class
+com\wang\freemarker\config\SecurityConfig$1.class
+com\wang\freemarker\controller\FreeController.class
+com\wang\freemarker\controller\LoginController.class
+com\wang\freemarker\config\AjaxLogoutSuccessHandler.class
+com\wang\freemarker\controller\StaticController.class
+com\wang\freemarker\config\SelfAuthenticationProvider.class
+com\wang\freemarker\config\SelfUserDetails.class

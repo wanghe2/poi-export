@@ -1,6 +1,7 @@
 package com.wang.export;
 
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.URLEncoder;
@@ -155,7 +156,17 @@ public class DownLoadCopy {
     }
 
     
-    
+    public  static void main(String[] args) throws IOException {
+		FileInputStream in_temp=new FileInputStream("D:\\wh\\code\\workspace\\cs_workspace\\.metadata\\.plugins\\org.eclipse.wst.server.core\\tmp0\\wtpwebapps\\cs\\WEB-INF\\template"+"\\"+"newcape.xlsx");
+		OutputStream out=new FileOutputStream("D:\\\\wh\\\\code\\\\workspace\\\\cs_workspace\\\\.metadata\\\\.plugins\\\\org.eclipse.wst.server.core\\\\tmp0\\\\wtpwebapps\\\\cs\\\\WEB-INF\\\\template"+"\\export\\"+"wanghe.xlsx");
+		
+		XSSFWorkbook excelBook=new XSSFWorkbook(in_temp);
+		excelBook.write(out);
+		out.flush();
+        out.close();
+		in_temp.close();
+		excelBook.close();
+	}
        
     
 }
